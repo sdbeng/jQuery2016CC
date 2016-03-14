@@ -4,12 +4,18 @@ $(document).ready(function(){
   // var $target = $('div');
   // $target.fadeOut('fast');
 
-  $div1 = $('div#one');
-  $div2 = $('div#two');
-  $p = $("<p>foo hello1</p>");
-  $div1.after($p);
-  $div2.after($p);
+  // $div1 = $('div#one');
+  // $div2 = $('div#two');
+  // $p = $("<p>foo hello1</p>");
+  // $div1.after($p);
+  // $div2.after($p);
 // remove <p> tag from the html document
-  $p.remove();
+  // $p.remove();
+
+  $('#text').click(function(){
+    console.log("clicked");
+    $(this).addClass('highlighted');
+  });
+
 
 });
