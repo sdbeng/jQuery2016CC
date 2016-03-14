@@ -24,3 +24,9 @@
     box-shadow: 0 0 8px #FFD700;
     cursor:pointer;
 }
+
+#fade2{
+  color: #aaa000;
+  width: 100px;
+  height: 100px;
+}

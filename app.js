@@ -17,5 +17,13 @@ $(document).ready(function(){
     $(this).addClass('highlighted');
   });
 
+  $('#fade2').click(function(){
+    console.log("fadeTo...");
+  $('.green, .blue').fadeTo('fast', 0.33, function(){
+    console.log('Animation complete.');
+  });
+  });
+
+
 
 });
