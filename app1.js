@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  console.log('Doc is ready!');
+  console.log('Doc is ready! - serving app1.js...');
 
   // var $target = $('div');
   // $target.fadeOut('fast');
@@ -46,17 +46,21 @@ $(document).ready(function(){
   // console.log(data);
 
 // move (not copy) the paragraph after the div in the following code
-  $('#target').after($("#para"));
+  // $('#target').after($("#para"));
 
   //toggleClass
-  $('#text').click(function(){
-    $('#text').toggleClass('highlighted');
-    });
+  // $('#text').click(function(){
+  //   $('#text').toggleClass('highlighted');
+  //   });
 
     //set height on a div using css
     // $("div").height("100px"); or $("div").css("height", "100px"); would both work equally well.
 
-    //
+    //////////////////////////////////
+    //.focus() - set focus input outline to red
+    $('input').focus(function(){
+      $(this).css('outline-color','#ff0000');
+    });
 
 
 });
